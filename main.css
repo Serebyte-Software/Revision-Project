@@ -1,0 +1,87 @@
+/* main.css */
+
+/* body */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* section */
+section {
+	background: #232426;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+}
+
+/* footer */
+footer {
+	background: #232426;
+	position:absolute;
+	bottom: 0;
+	width: 100vw;
+}
+
+/* fonts */
+h1 { 
+	font-family: Consolas;
+	color: white;
+}	
+
+h2 { 
+	font-family: Consolas;
+	color: white;
+}
+
+h4 { 
+	font-family: Consolas;
+	color: white;
+}
+
+
+p { 
+	font-family: Consolas;
+	color: white;
+}		
+
+/* Input */
+input {
+	background: #3e4042;
+	font-family: Consolas;
+	color: green;
+	width:50%;
+}
+
+/* Button */
+button {
+	background: #3e4042;
+	font-family: Consolas;
+	color: white;
+}
+
+/* List Item */
+li {
+	color: white;
+	font-family: Consolas;
+}
+
+/* Anchor */
+a {
+	font-family: Consolas;
+}
+
+/* custom classes */
+.centerBoard {
+	background: #3e4042;
+	max-width: 60vw;
+	min-height: 60%;
+	border-radius: 15px;
+	box-shadow: 2px 2px;
+	padding: 10px;
+}
+
+.topicBox {
+	padding: 10px;
+}

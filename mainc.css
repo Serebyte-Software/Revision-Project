@@ -1,0 +1,17 @@
+/* main.css */
+
+/* body */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* section */
+section {
+	background-colour: #232426;
+}
+
+/* custom classes */
+.centerBoard {
+	background-colour: #3e4042;
+}
