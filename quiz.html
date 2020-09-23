@@ -5,6 +5,8 @@
 			Revision App
 		</title>
 		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<link rel="stylesheet" type="text/css" href="main.css"></link>
 	</head>
 	
@@ -127,11 +129,16 @@
 		
 		//loadScript.src = window.location.href.substring(substringStart + 1, window.location.href.length - (substringStart + 1));
 		
-		document.body.appendChild(loadScript);
+		//load main script after loading laod script 
+		loadScript.onload = function(){
+			//load main script 
+			var mainScript = document.createElement("script");
+			setTimeout(function(){
+				mainScript.src = "mainScript.js";
+				document.body.appendChild(mainScript);
+			},100);
+		};
 		
-		//load main script 
-		var mainScript = document.createElement("script");
-		mainScript.src = "mainScript.js";
-		document.body.appendChild(mainScript);
+		document.body.appendChild(loadScript);
 	</script>
 </html>

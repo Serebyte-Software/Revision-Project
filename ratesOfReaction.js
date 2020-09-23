@@ -91,9 +91,36 @@ var questions = [
 
 	//question 30
 	["Le __________ Principle states that: if a system is at equilibrium and a change is made to the c_________, then the system responds to ______ the change.","","Chatelier's conditions oppose","Chaterliers conditions oppose"],
-
+	
 	//question 31
-	["","",""],
+	["When the concentration of the reactant (left) of a reversible reaction at equilibrium is increased, the position of equilibrium will move to the _____ (making more _______s) to reduce the concentration of the reactants. If you increase the concentration of the products (or decrease the concentration of the reactants), then the position of equilibrium will move to the ____ to compensate.","","Right products left"],
+	
+	//question 32
+	["Increasing the temperature of a reversible reaction at equilibrium will stop it from being at equilibrium. If the forwards reaction is ___________, the position of equilibrium will move to the right, in favour of creating more product. If it is __________, it will move to the left, in favour of creating more reactant. This will ______se the temperature, counteracting the change. The opposite will happen if the temperature is d________d instead.","","Endothermic exothermic decrease decreased"],
+	
+	//question 33
+	["Increasing the pressure on a reversible reaction at equilibrium (if the chemicals are _____) will cause the position of equilibrium to move to the side with the ____er number of molecules, creating more of these and decreasing the pressure. Decreasing the pressure will result in the position of equilibrium moving to the side with the l___st number of molecules, increasing the pressure and counteracting the change.","","Gases fewer largest"],
+	
+	//question 34
+	["When the pressure is increased on the reaction N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>, the position of equilibrium will move to the _____. This means that more _______ will be present when equilibrium is reached again.","","Right ammonia"],
+
+	//question 35
+	["When the pressure is decreased on the reaction N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>, the position of equilibrium will move to the _____. This means that more n_______ and ________ will be present when ___________ is reached again.","","Left nitrogen hydrogen equilibrium"],
+	
+	//question 36
+	["If the pressure is increased on a reversible reaction at equilibrium and both sides have the same number of molecules, there w_____ be change to the position of equilibrium.","","Won't","Wont"],
+	
+	//question 37
+	["When the temperature is increased on the reaction N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>, the position of equilibrium will move to the _____. This means that more n_______ and h_______ will be present when equilibrium is reached again, lowering the temperature.","","Left nitrogen hydrogen"],
+	
+	//question 38
+	["When the temperature is decreased on the reaction N<sub>2</sub> + 3H<sub>2</sub> ⇌ 2NH<sub>3</sub>, the position of equilibrium will move to the _____. This means that more ________ will be present when equilibrium is reached again, increasing the temperature.","","Right ammonia"],
+	
+	//question 39
+	["If the concentration of 2NO<sub>2</sub> is increased at equilibrium in the reaction 2NO<sub>2</sub> ⇌ N<sub>2</sub>O<sub>4</sub>, the we would expect the position of equilibrium to move to the _____, favouring the ________ reaction.","","Right forwards"],
+
+	//question 40
+	["If the concentration of N<sub>2</sub>O<sub>4</sub> is increased at equilibrium in the reaction 2NO<sub>2</sub> ⇌ N<sub>2</sub>O<sub>4</sub>, the we would expect the position of equilibrium to move to the ____, favouring the r______ reaction.","","Left reverse"],
 ];
 
 //title 
